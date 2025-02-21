@@ -35,4 +35,6 @@ void DirScanner::traverse(string dir)
             _files.emplace_back(dir+"/"+p_dirent->d_name);
         }
     }
+
+    closedir(p_dir);
 }
