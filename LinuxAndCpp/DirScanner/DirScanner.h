@@ -16,7 +16,7 @@ class DirScanner
 public:
     vector<string> & getFiles();
     
-    /** 指定目录扫描，并将文件绝对路径存入_files
+    /** 指定目录扫描，并将文件相对路径存入_files
      *
      *
      */
